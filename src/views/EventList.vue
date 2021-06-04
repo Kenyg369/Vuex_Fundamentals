@@ -1,5 +1,6 @@
 <template>
-  <div class ="event-card-conatiner">
+  <h1>Event for Good</h1>
+  <div class ="events">
     <EventCard v-for="event in events" :key="event.id" :event="event" />
   </div>
 </template>
@@ -14,7 +15,6 @@ export default {
   components: {
     EventCard,
   },
-
   data() {
     return {
       events: null
@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style scoped>
-.event-card-conatiner{
+.events{
   display: flex;
   flex-direction: column;
   align-items: center;
