@@ -29,6 +29,26 @@
       "date": "July 22, 2022",
       "time": "11:00",
       "organizer": "Carey Wales"
+    },
+    {
+      "id": "0c018dc5-0bb4-4eda-aa97-2b438c20c90f",
+      "category": "housing",
+      "title": "asdasdas",
+      "description": "asdasdas",
+      "location": "asdasdas",
+      "date": "3/3/2023",
+      "time": "asdasdasd",
+      "organizer": "Adam Jahr"
+    },
+    {
+      "id": "e277df83-8e61-41e7-92d7-a6b5c142519a",
+      "category": "animal welfare",
+      "title": "asdasd",
+      "description": "asdas",
+      "location": "asdasd",
+      "date": "asdas",
+      "time": "asdad",
+      "organizer": "Adam Jahr"
     }
   ]
 }
