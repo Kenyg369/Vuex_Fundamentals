@@ -20,7 +20,7 @@
     <input
       v-model= "event.title"
       type="text"
-      placeholder="Titile">
+      placeholder="Titile"
     />
 
     <label>Description</label>
@@ -32,15 +32,24 @@
     
     <h3>Where is your event?</h3>
 
+    <label>Location</label>
+    <input
+      v-model= "event.location"
+      type= "text"
+      placeholder="Location"
+    />
+
+    <h3>When is your event?</h3>
+
     <label>Date</label>
     <input
-      v-model= "event.Date"
+      v-model= "event.date"
       type= "text"
       placeholder= "Date"
     />
 
     <label>Time</label>
-    <input>
+    <input
       v-model= "event.time"
       type= "text"
       placeholder= "Time"
@@ -48,7 +57,7 @@
 
     <button type="submit">Submit</button>
   
-  <form>
+  </form>
 </div>        
 </template>
 

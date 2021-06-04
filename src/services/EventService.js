@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const apiClient = axios.create({
-  baseURL: 'https://localhost:3000' ,
+  baseURL: 'https://my-json-server.typicode.com/Kenyg369/Vuex_Fundamentals' ,
   withCredentials: false,
   headers:{
     Accept:'application/json',
